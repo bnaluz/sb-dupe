@@ -88,11 +88,11 @@ const FieldGuides = () => {
           </div>
         </div>
         <div className="text-center  uppercase">
-          <a href="/all-fg">
+          <Link href="/all-fg">
             <button className="bg-green-600 uppercase text-md rounded-full px-2 mb-8 py-2 text-white">
               Check Out Our Field Guides
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
