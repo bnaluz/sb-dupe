@@ -46,7 +46,7 @@ const FieldGuides = () => {
                 Luckily, our massive fleet has a massive tuning machine (and a
                 massive amount of loving staffers) to care for it all. Follow
                 along as Matt Gough talks with a bunch of those staffers
-                (including himself) to learn all about &apos;em.
+                (including himself) to learn all about 'em.
               </p>
               <Link href="/shop">
                 <button className="bg-green-600 uppercase text-sm rounded-full my-4 py-2 px-2 text-white">
