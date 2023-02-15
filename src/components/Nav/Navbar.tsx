@@ -9,6 +9,7 @@ import {
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaRecycle, FaShoppingCart } from "react-icons/fa";
 import React, { useState } from "react";
+import SearchBar from "../SearchBar/SearchBar";
 
 const Navbar = () => {
   const [hamNav, setHamNav] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
         </div>
 
         {/* searchbar */}
-        <div> Searchbar llllllllllllll</div>
+        <SearchBar />
 
         <div className="hidden lg:flex px-8 justify-between text-2xl">
           <Link href="#faq" className="p-3 text-green-600">
