@@ -1,6 +1,7 @@
 import Image from "next/image";
 import fgInfo from "@/data/fgInfo";
 import FgBlogItem from "./FgBlogItem";
+import Link from "next/link";
 
 const FieldGuides = () => {
   return (
@@ -22,7 +23,7 @@ const FieldGuides = () => {
         <div className="container mx-auto flex flex-wrap ">
           {/* image */}
           <div className="w-full md:w-1/2 md:order-2">
-            <a href="/">
+            <Link href="/">
               <Image
                 className="w-full md:w-auto md:h-auto"
                 src="/Fg-Ski-Rental.png"
@@ -30,7 +31,7 @@ const FieldGuides = () => {
                 height={3500}
                 width="3500"
               />
-            </a>
+            </Link>
           </div>
           <div className="w-full md:w-1/2 py-6 px-6 md:py-8 md:px-12 bg-white">
             <h2 className="uppercase font-bold tracking-wider text-2xl">
@@ -47,11 +48,11 @@ const FieldGuides = () => {
                 along as Matt Gough talks with a bunch of those staffers
                 (including himself) to learn all about 'em.
               </p>
-              <a href="/shop">
+              <Link href="/shop">
                 <button className="bg-green-600 uppercase text-sm rounded-full my-4 py-2 px-2 text-white">
                   Watch the video
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
