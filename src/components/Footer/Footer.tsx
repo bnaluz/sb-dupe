@@ -2,10 +2,10 @@ import { BsInstagram, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#e9ecee] py-5">
-      <div className="container mx-auto py-5">
+    <footer className="relative bg-[#e9ecee] mb-0 py-6 z-[100]">
+      <div className="container mx-auto ">
         <div className="flex flex-wrap justify-around">
-          <div className="w-full lg:w-1/3 mb-12 px-5 max-w-[500px]">
+          <div className="w-full lg:w-1/3  px-5 max-w-[500px]">
             <form>
               <div className="flex relative">
                 <div className="mx-auto">
@@ -114,40 +114,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-{
-  /* <div className="grid md:grid-cols-3  justify-items-end">
-<div>list 1</div>
-<div>list 2</div>
-<div>list 3</div>
-</div> */
-}
-
-{
-  /* <a
-            href="https://www.facebook.com/sportsbasement"
-            className="text-green-600"
-          >
-            <BsFacebook />
-          </a>
-          <a
-            href="https://www.instagram.com/sportsbasement/"
-            className="text-green-600"
-          >
-            <BsInstagram />
-          </a>
-          <a
-            href="https://twitter.com/SportsBasement"
-            className="text-green-600"
-          >
-            <BsTwitter />
-          </a>
-          <a
-            href="https://www.youtube.com/user/thesportsbasement"
-            className="text-green-600"
-          >
-            <BsYoutube />
-          </a>
-          <a href="/review-us" className=" text-lg italic">
-            <div>Review Us</div> */
-}

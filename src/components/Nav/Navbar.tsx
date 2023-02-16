@@ -29,17 +29,17 @@ const Navbar = () => {
 
           <div className="justify-start ">
             <ul className="hidden lg:flex ">
-              <Link href="/#shop">
+              <Link href="/shop">
                 <li className="ml-10 uppercase hover:border-b-2 text-3xl font-bold  hover:border-green-600">
                   Shop
                 </li>
               </Link>
-              <Link href="/#rent">
+              <Link href="/rent">
                 <li className="ml-10 text-3xl uppercase hover:border-b-2 hover:border-green-600 font-bold">
                   Rent
                 </li>
               </Link>
-              <Link href="/#deals">
+              <Link href="/deals">
                 <li className="ml-10 text-3xl uppercase hover:border-b-2 font-bold  hover:border-green-600 text-green-600">
                   Deals
                 </li>
@@ -52,16 +52,16 @@ const Navbar = () => {
         <SearchBar />
 
         <div className="hidden lg:flex px-8 justify-between text-2xl">
-          <Link href="#faq" className="p-3 text-green-600">
+          <Link href="faq" className="p-3 text-green-600">
             <AiFillQuestionCircle />
           </Link>
-          <Link href="#login" className="p-3  text-green-600">
+          <Link href="login" className="p-3  text-green-600">
             <BsFillPersonFill />
           </Link>
-          <Link href="#wish-list" className="p-3  text-green-600">
+          <Link href="wish-list" className="p-3  text-green-600">
             <AiFillHeart />
           </Link>
-          <Link href="#cart" className="p-3  text-green-600">
+          <Link href="cart" className="p-3  text-green-600">
             <FaShoppingCart />
           </Link>
         </div>
@@ -115,39 +115,39 @@ const Navbar = () => {
 
               <div className="py-4 flex flex-col ">
                 <ul className="uppercase text-2xl font-bold ">
-                  <Link href="/#pre-loved" onClick={() => setHamNav(false)}>
+                  <Link href="/pre-loved" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm flex hover:text-green-600">
                       <FaRecycle className="text-green-600" />
                       pre-loved
                     </li>
                   </Link>
 
-                  <Link href="/#gift-cards" onClick={() => setHamNav(false)}>
+                  <Link href="/gift-cards" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       gift cards
                     </li>
                   </Link>
-                  <Link href="/#events" onClick={() => setHamNav(false)}>
+                  <Link href="/events" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       Events
                     </li>
                   </Link>
-                  <Link href="/#services" onClick={() => setHamNav(false)}>
+                  <Link href="/services" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       services
                     </li>
                   </Link>
-                  <Link href="/#ski-bus" onClick={() => setHamNav(false)}>
+                  <Link href="/ski-bus" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       ski bus
                     </li>
                   </Link>
-                  <Link href="/#basementeers" onClick={() => setHamNav(false)}>
+                  <Link href="/basementeers" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       basementeers
                     </li>
                   </Link>
-                  <Link href="/#find-a-store" onClick={() => setHamNav(false)}>
+                  <Link href="/find-a-store" onClick={() => setHamNav(false)}>
                     <li className="py-4 text:sm hover:text-green-600">
                       find a store
                     </li>
