@@ -6,10 +6,10 @@ const SkiBus = () => {
     <div className="w-full h-auto px-6 pt-0 pb-20">
       <div className="container mx-auto flex flex-wrap ">
         <div className="w-full md:w-1/2  ">
-          <a href="/shop">
+          <Link href="/shop">
             {/* change href later */}
             <Image src="/skibus.png" alt="/" width={1000} height="500" />
-          </a>
+          </Link>
         </div>
         <div className="w-full md:w-1/2 py-6 px-6 md:py-8 md:px-12 bg-white">
           <h2 className="mb-0 font-bold uppercase text-2xl  tracking-wider">
