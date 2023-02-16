@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const SkiBus = () => {
   return (
@@ -25,11 +26,11 @@ const SkiBus = () => {
             </p>
           </div>
           <div className="text-center md:text-left">
-            <a href="/shop">
+            <Link href="/shop">
               <button className="bg-green-600 uppercase text-sm rounded-full my-4 py-2 px-2 text-white">
                 book your seat
               </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

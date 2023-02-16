@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsInstagram, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
@@ -55,54 +56,54 @@ const Footer = () => {
             <div className="container mx-auto">
               <div className="flex flex-wrap justify-around">
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <a href="/about" className="font-semibold pb-2 ">
+                  <Link href="/about" className="font-semibold pb-2 ">
                     About Sb
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/store-locations"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Store Locations
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/contact"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <a href="/my-account" className="font-semibold pb-2 ">
+                  <Link href="/my-account" className="font-semibold pb-2 ">
                     My Account
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/login"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Login
-                  </a>
+                  </Link>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <a href="/community" className="font-semibold pb-2">
+                  <Link href="/community" className="font-semibold pb-2">
                     Our Community
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/field-guides"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Field Guides
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="/events"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Events
-                  </a>
+                  </Link>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <a href="/shop" className="font-semibold pb-2 ">
+                  <Link href="/shop" className="font-semibold pb-2 ">
                     Shop
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
