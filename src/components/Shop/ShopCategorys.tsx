@@ -3,7 +3,7 @@ import ShopCategoryItem from "./ShopCategoryItem";
 
 const ShopCategorys = () => {
   return (
-    <div className="grid pt-2 lg:grid-cols-3 gap-8 items-stretch">
+    <div className="grid h-full md:space-x-6 place-items-center grid-cols-1 md:grid-cols-3">
       {shopCategoryInfo.map((e) => {
         return (
           <ShopCategoryItem
