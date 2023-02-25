@@ -1,10 +1,10 @@
 import MiniNav from "@/components/Nav/MiniNav";
 import bballItems from "@/data/bballItems";
 import RetailItem from "@/utils/RetailItem";
-import { Ballet } from "@next/font/google";
+
 import { useState } from "react";
 
-const basketball = () => {
+const Basketball = () => {
   const [firstPriceFilter, setFirstPriceFilter] = useState(false);
   const [secondPriceFilter, setSecondPriceFilter] = useState(false);
   const [showAll, setShowAll] = useState(true);
@@ -161,4 +161,4 @@ const basketball = () => {
   );
 };
 
-export default basketball;
+export default Basketball;
