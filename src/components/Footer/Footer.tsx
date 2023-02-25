@@ -3,7 +3,7 @@ import { BsInstagram, BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#e9ecee] mb-0 py-6 z-[100]">
+    <footer className="relative  py-6 bg-[#e9ecee] z-[100]">
       <div className="container mx-auto ">
         <div className="flex flex-wrap justify-around">
           <div className="w-full lg:w-1/3  px-5 max-w-[500px]">

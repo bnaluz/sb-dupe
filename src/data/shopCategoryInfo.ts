@@ -4,16 +4,16 @@ const shopCategoryInfo = [
     backgroundImg: "/ballCategoryImg.png",
     href: "/shop/basketball",
   },
-  {
-    categoryName: "snow",
-    backgroundImg: "/snowCategoryImg.png",
-    href: "/shop/snow",
-  },
-  {
-    categoryName: "running",
-    backgroundImg: "/runningCategoryImg.png",
-    href: "/shop/running",
-  },
+  // {
+  //   categoryName: "snow",
+  //   backgroundImg: "/snowCategoryImg.png",
+  //   href: "/shop/snow",
+  // },
+  // {
+  //   categoryName: "running",
+  //   backgroundImg: "/runningCategoryImg.png",
+  //   href: "/shop/running",
+  // },
 ];
 
 export default shopCategoryInfo;

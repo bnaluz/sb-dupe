@@ -15,7 +15,7 @@ const ShopCategoryItem = ({
 }: ShopCategoryProps) => {
   return (
     <div>
-      <div className="py-6 overflow-hidden relative flex items-center justify-center  ">
+      <div className="py-6 relative flex items-center justify-center  ">
         <Link href={href}>
           <div className="mt-auto flex">
             <Image src={backgroundImg} height="800" width="800" alt="/" />

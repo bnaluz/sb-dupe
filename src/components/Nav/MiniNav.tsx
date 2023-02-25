@@ -3,7 +3,7 @@ import { FaRecycle } from "react-icons/fa";
 
 const MiniNav = () => {
   return (
-    <div className="invisible lg:visible w-full h-30">
+    <div className="invisible bg-[#e9ecee] lg:visible w-full h-30">
       <div className="flex justify-end p-2 items-center pt-24 w-full h-full px-2 2xl:px-16">
         <div className="flex justify-end ">
           <ul className="flex">
