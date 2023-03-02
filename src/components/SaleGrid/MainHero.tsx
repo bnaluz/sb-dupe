@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MainHero = () => {
   return (
-    <div className="w-full container mx-auto">
+    <div className="w-full container mx-auto pt-24">
       <Image
         src="/sb-hero-img.png"
         alt="/"

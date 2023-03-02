@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed p-2 w-full h-20 border-b border-b-gray-300 z-[100] bg-[#e9ecee]">
-      <div className="flex justify-between  items-center w-full h-full px-2 2xl:px-16">
+    <div className="fixed p-2 mb-2 w-full h-20 border-b border-b-gray-300 z-[100] bg-[#e9ecee]">
+      <div className="flex justify-around  items-center w-full h-full px-2 2xl:px-16">
         <div className="flex justify-between">
           <Link href="/">
             <Image src="/SB_LOGO.svg" alt="/" height="100" width="100" />
@@ -30,11 +30,11 @@ const Navbar = () => {
           <div className="justify-start ">
             <ul className="hidden lg:flex ">
               <Link href="/shop">
-                <li className="ml-10 uppercase hover:border-b-2 text-3xl font-bold  hover:border-green-600">
+                <li className="ml-6 uppercase hover:border-b-2 text-3xl font-bold mt-1 hover:border-green-600">
                   Shop
                 </li>
               </Link>
-              <Link href="/rent">
+              {/* <Link href="/rent">
                 <li className="ml-10 text-3xl uppercase hover:border-b-2 hover:border-green-600 font-bold">
                   Rent
                 </li>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 <li className="ml-10 text-3xl uppercase hover:border-b-2 font-bold  hover:border-green-600 text-green-600">
                   Deals
                 </li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
         </div>

@@ -52,13 +52,13 @@ const Basketball = () => {
   };
 
   return (
-    <div className="w-full h-auto pb-24 ">
-      <MiniNav />
+    <div className="w-full h-auto pb-24 pt-8 ">
+      {/* <MiniNav /> */}
       <div className="w-full text-4xl py-2 pb-8 font-bold text-green-600 text-center tracking-wide">
         Basketball
       </div>
 
-      <div className="grid md:grid-cols-4 grid-cols-1 container mx-auto ">
+      <div className="grid md:grid-cols-4 grid-cols-1 container mx-auto space-x-4">
         <div className=" pl-8 max-w-[320px] ">
           <div className=" bg-white  rounded-lg">
             <div className="flex pl-2 align-top font-bold uppercase text-xl pb-4">
@@ -86,7 +86,7 @@ const Basketball = () => {
             </ul>
           </div>
         </div>
-        {/*  */}
+
         {firstPriceFilter &&
           bballItems
             .filter((item) => item.price < 50.0)

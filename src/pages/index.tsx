@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/SB_LOGO.svg" />
       </Head>
       {/* web start */}
-      <MiniNav />
+      {/* <MiniNav /> */}
       <MainHero />
       <MainSaleItem />
       <SkiBus />
