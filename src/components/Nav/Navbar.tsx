@@ -55,7 +55,7 @@ const Navbar = () => {
         <SearchBar />
 
         <div className="hidden lg:flex px-8 justify-between text-2xl">
-          <Link href="faq" className="p-3 text-green-600">
+          <Link href="/#faq" className="p-3 text-green-600">
             <AiFillQuestionCircle />
           </Link>
           {/* <Link href="login" className="p-3  text-green-600">
@@ -65,7 +65,7 @@ const Navbar = () => {
             <AiFillHeart />
           </Link> */}
           <div className="flex rounded-xl bg-slate-300 px-2">
-            <Link href="cart" className="p-3  text-green-600">
+            <Link href="/#cart" className="p-3  text-green-600">
               <FaShoppingCart />
             </Link>
             <div className="mt-2">{curCart}</div>
