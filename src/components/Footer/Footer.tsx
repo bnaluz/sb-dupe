@@ -47,9 +47,9 @@ const Footer = () => {
               >
                 <BsYoutube />
               </a>
-              <a href="/#review-us" className=" text-lg italic">
+              <Link href="/#review-us" className=" text-lg italic">
                 <div>Review Us</div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="w-full xs:w-2/3 md:w-5/6 lg:w-full xl:w-2/3 px-2 xs:pl-6">
