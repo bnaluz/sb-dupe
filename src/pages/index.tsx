@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
+
 import MiniNav from "@/components/Nav/MiniNav";
 import MainHero from "@/components/SaleGrid/MainHero";
 import MainSaleItem from "@/components/SaleGrid/MainSaleItem";

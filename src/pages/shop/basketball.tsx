@@ -93,7 +93,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
-                  key={Math.random()}
+                  id={e.id}
                   brand={e.brand}
                   title={e.title}
                   backgroundImg={e.backgroundImg}
@@ -108,7 +108,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
-                  key={Math.random()}
+                  id={e.id}
                   brand={e.brand}
                   title={e.title}
                   backgroundImg={e.backgroundImg}
@@ -120,7 +120,7 @@ const Basketball = () => {
           bballItems.map((e) => {
             return (
               <RetailItem
-                key={Math.random()}
+                id={e.id}
                 brand={e.brand}
                 title={e.title}
                 backgroundImg={e.backgroundImg}
@@ -134,7 +134,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
-                  key={Math.random()}
+                  id={e.id}
                   brand={e.brand}
                   title={e.title}
                   backgroundImg={e.backgroundImg}
@@ -148,7 +148,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
-                  key={Math.random()}
+                  id={e.id}
                   brand={e.brand}
                   title={e.title}
                   backgroundImg={e.backgroundImg}

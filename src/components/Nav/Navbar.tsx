@@ -10,6 +10,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { FaRecycle, FaShoppingCart } from "react-icons/fa";
 import React, { useState } from "react";
 import SearchBar from "../SearchBar/SearchBar";
+import { useAppSelector } from "@/store/store";
 
 const Navbar = () => {
   const [hamNav, setHamNav] = useState(false);
@@ -18,6 +19,8 @@ const Navbar = () => {
     setHamNav(!hamNav);
     console.log(hamNav);
   };
+
+  const curCart = useAppSelector((state) => state.cart.cartTotalQuantity);
 
   return (
     <div className="fixed p-2 mb-2 w-full h-20 border-b border-b-gray-300 z-[100] bg-[#e9ecee]">
@@ -55,15 +58,18 @@ const Navbar = () => {
           <Link href="faq" className="p-3 text-green-600">
             <AiFillQuestionCircle />
           </Link>
-          <Link href="login" className="p-3  text-green-600">
+          {/* <Link href="login" className="p-3  text-green-600">
             <BsFillPersonFill />
           </Link>
           <Link href="wish-list" className="p-3  text-green-600">
             <AiFillHeart />
-          </Link>
-          <Link href="cart" className="p-3  text-green-600">
-            <FaShoppingCart />
-          </Link>
+          </Link> */}
+          <div className="flex rounded-xl bg-slate-300 px-2">
+            <Link href="cart" className="p-3  text-green-600">
+              <FaShoppingCart />
+            </Link>
+            <div className="mt-2">{curCart}</div>
+          </div>
         </div>
 
         <div onClick={navHandler} className="lg:hidden">

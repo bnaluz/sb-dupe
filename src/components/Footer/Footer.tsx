@@ -47,7 +47,7 @@ const Footer = () => {
               >
                 <BsYoutube />
               </a>
-              <a href="/review-us" className=" text-lg italic">
+              <a href="/#review-us" className=" text-lg italic">
                 <div>Review Us</div>
               </a>
             </div>
@@ -56,45 +56,45 @@ const Footer = () => {
             <div className="container mx-auto">
               <div className="flex flex-wrap justify-around">
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <Link href="/about" className="font-semibold pb-2 ">
+                  <Link href="/#about" className="font-semibold pb-2 ">
                     About Sb
                   </Link>
                   <Link
-                    href="/store-locations"
+                    href="/#store-locations"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Store Locations
                   </Link>
                   <Link
-                    href="/contact"
+                    href="/#contact"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Contact Us
                   </Link>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <Link href="/my-account" className="font-semibold pb-2 ">
+                  <Link href="/#my-account" className="font-semibold pb-2 ">
                     My Account
                   </Link>
                   <Link
-                    href="/login"
+                    href="/#login"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Login
                   </Link>
                 </div>
                 <div className="w-full md:w-1/2 lg:w-1/4 mb-12 px-3 flex flex-col">
-                  <Link href="/community" className="font-semibold pb-2">
+                  <Link href="/#community" className="font-semibold pb-2">
                     Our Community
                   </Link>
                   <Link
-                    href="/field-guides"
+                    href="/#field-guides"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Field Guides
                   </Link>
                   <Link
-                    href="/events"
+                    href="/#events"
                     className="text-sm  pb-2  leading-none whitespace-normal"
                   >
                     Events
