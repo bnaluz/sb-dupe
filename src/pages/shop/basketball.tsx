@@ -93,6 +93,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
+                  key={e.id}
                   id={e.id}
                   brand={e.brand}
                   title={e.title}
@@ -108,6 +109,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
+                  key={e.id}
                   id={e.id}
                   brand={e.brand}
                   title={e.title}
@@ -120,6 +122,7 @@ const Basketball = () => {
           bballItems.map((e) => {
             return (
               <RetailItem
+                key={e.id}
                 id={e.id}
                 brand={e.brand}
                 title={e.title}
@@ -134,6 +137,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
+                  key={e.id}
                   id={e.id}
                   brand={e.brand}
                   title={e.title}
@@ -148,6 +152,7 @@ const Basketball = () => {
             .map((e) => {
               return (
                 <RetailItem
+                  key={e.id}
                   id={e.id}
                   brand={e.brand}
                   title={e.title}
